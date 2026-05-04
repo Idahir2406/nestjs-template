@@ -43,7 +43,7 @@ services:
   db:
     image: postgres:18
     environment:
-      POSTGRES_USER: v4p_booking
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: contraseña
       POSTGRES_DB: booking
       DATABASE_PORT: 5432:5432
